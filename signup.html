@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIIT Bhopal - Signup</title>
+</head>
+<body>
+    <header>
+        <h1>IIIT Bhopal Student Academic Hub</h1>
+    </header>
+    <nav>
+        <a href="./index.html">Home</a> |
+        <a href="./syllabus.html">Syllabus</a> |
+        <a href="./subjects.html">Subjects</a> |
+        <a href="./resources.html">Resources</a> |
+        <a href="./signup.html">Signup</a> |
+        <a href="./about.html">About</a>
+    </nav>
+    <hr>
+    <main>
+        <h2>Student Signup</h2>
+        <p>Create your student profile to explore the academic resources.</p>
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="roll">Roll Number:</label>
+            <input type="text" id="roll" name="roll" required>
+            <br><br>
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option>Computer Science and Engineering</option>
+                <option>Electronics and Communication Engineering</option>
+                <option>Information Technology</option>
+            </select>
+            <br><br>
+            <label for="year">Year:</label>
+            <select id="year" name="year">
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+            <br><br>
+            <label for="semester">Semester:</label>
+            <select id="semester" name="semester">
+                <option>Semester 1</option>
+                <option>Semester 2</option>
+                <option>Semester 3</option>
+                <option>Semester 4</option>
+                <option>Semester 5</option>
+                <option>Semester 6</option>
+                <option>Semester 7</option>
+                <option>Semester 8</option>
+            </select>
+            <br><br>
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <br><br>
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="design" name="interests" value="design">
+            <label for="design">Design</label>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <br><br>
+            <button type="submit">Sign Up</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>IIIT Bhopal Student Academic Hub</p>
+        <p>Made for IIIT Bhopal Students</p>
+    </footer>
+</body>
+</html>
